@@ -4,7 +4,7 @@
 # https://docs.microsoft.com/azure/devops/pipelines/languages/javascript
 
 trigger:
-- app-automate
+- master
 
 stages:
   - stage: Run_Tests
