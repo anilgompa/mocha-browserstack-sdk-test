@@ -11,7 +11,7 @@ stages:
     displayName: 'Run Tests'
     jobs:
       - job: test_job
-        displayName: 'Run WDIO Tests'
+        displayName: 'Run SDK Tests'
         pool:
           vmImage: ubuntu-latest
         steps:
